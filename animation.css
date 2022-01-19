@@ -1,0 +1,82 @@
+.menu:hover{
+    transition: 2s;
+    transform: rotatey(180deg);
+}
+.laptop-img{
+    position: relative;
+    animation: lappy 2s infinite ease-in;
+    animation-direction: normal;
+}
+
+@keyframes lappy {
+    0% {left: 0px; bottom: 0px;}
+   /* 60% {left: 0px; bottom: 50px;}*/
+    80% {left: 0px; bottom: 60px;}
+    100% {left: 0px; bottom: 0px;}
+
+}
+/*.card-1:hover{
+    transform: rotateY(180deg);
+    /*visibility: hidden;
+    background-image: url("Naruto.png");
+}*/
+
+.linkbutton1:hover{
+    transition: 2s linear ; 
+    background-color:chocolate ;
+    color: black;
+    border: transparent;
+}
+.linkbutton2:hover{
+    transition: 2s linear ; 
+    background-color:#2AFAC2 ;
+    color: black;
+    border: transparent;
+}
+.linkbutton3:hover{
+    transition: 2s linear ; 
+    background-color:#2AFAC2 ;
+    color: black;
+    border: transparent;
+}
+.btn11:hover{
+    transition: 1s linear;
+    background:#4839B7 ;
+    color:#42D4EA ;
+    border: transparent;
+}
+.action:hover{
+    transition: 1.7s linear;
+    background-color: #FA3B6E;
+    border: transparent;
+}
+.ptnr:hover{
+    transition: 1.3s ease-in;
+    border-color: #FA3B6E;
+    color:pink ;
+    }
+
+
+.flip-card{
+    transform-style:preserve-3d;
+    transition:3s linear;
+    position:relative;
+}
+.flip-card:hover{
+    transform:rotateY(180deg);
+}
+.card-container{
+    position:absolute;
+    box-shadow:0 3px 10px rgb(0 0 0 / 0.2);
+    padding:0px 61px 70px 40px;
+    max-width:400px; 
+    backface-visibility: hidden;
+   
+}
+.back-side{
+    box-shadow:0 3px 10px rgb(0 0 0 / 0.2);
+    /*padding:0px 61px 70px 40px;*/
+    max-width:600px;
+    backface-visibility: hidden;
+    transform:rotateY(180deg);
+}
