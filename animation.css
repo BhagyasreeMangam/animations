@@ -129,3 +129,29 @@
 .login-btn:hover::before{
     opacity:1;     
 }
+.icon11{
+    position: relative;
+    animation: icon 2s 20 ease-in;
+    animation-direction: normal;
+}
+
+@keyframes icon {
+    0% {left: 0px; bottom: 0px;}
+   /* 60% {left: 0px; bottom: 50px;}*/
+    80% {left: 0px; bottom: 60px;}
+    100% {left: 0px; bottom: 0px;}
+
+}
+.icon3,.icon5{
+    position: relative;
+    animation: icon 3s 20 ease-out;
+    animation-direction: normal;
+}
+
+@keyframes icon {
+    0% {left: 0px; bottom: 0px;}
+   /* 60% {left: 0px; bottom: 50px;}*/
+    80% {left: 0px; bottom: 60px;}
+    100% {left: 0px; bottom: 0px;}
+
+}
