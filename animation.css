@@ -1,5 +1,5 @@
 .menu:hover{
-    transition: 2s;
+    transition: 5s;
     transform: rotatey(180deg);
 }
 .laptop-img{
@@ -14,6 +14,9 @@
     80% {left: 0px; bottom: 60px;}
     100% {left: 0px; bottom: 0px;}
 
+}
+.flip-image{
+    height: 92%;
 }
 /*.card-1:hover{
     transform: rotateY(180deg);
@@ -73,10 +76,56 @@
     backface-visibility: hidden;
    
 }
-.back-side{
+.flip-back{
     box-shadow:0 3px 10px rgb(0 0 0 / 0.2);
-    /*padding:0px 61px 70px 40px;*/
-    max-width:600px;
+    max-width:417px;
     backface-visibility: hidden;
     transform:rotateY(180deg);
+    height: 88%;
+}
+.signup-btn{
+    position:relative;
+    background-image: linear-gradient(to right,rgb(175, 67, 255,0.8),rgb(250, 110, 59,0.8)); 
+    z-index:1;  
+    
+}
+.signup-btn::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to left,rgb(175, 67, 255,0.8),rgb(250, 110, 59,0.8));
+    z-index: -1;
+    transition: opacity 0.5s linear;
+    opacity: 0;
+    border-radius:2rem;
+}
+.signup-btn:hover::before{
+    opacity:1;     
+}
+
+
+.login-btn{
+    position:relative;
+    background-image: linear-gradient(to right,#B79039,#FF8545);
+    z-index:1;  
+    
+}
+.login-btn::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to left,#B79039,#FF8545);
+    z-index: -1;
+    transition: opacity 0.3s linear;
+    opacity: 0;
+    border-radius:2rem;
+}
+.login-btn:hover::before{
+    opacity:1;     
 }
