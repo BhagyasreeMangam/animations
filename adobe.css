@@ -85,29 +85,12 @@
 .laptop-img{
     width:500px;
 }
-/*.laptop-img{
-    position: relative;
-    animation: lappy 2s infinite ease-in;
-    animation-direction: normal;
-}
 
-@keyframes lappy {
-    0% {left: 0px; bottom: 0px;}
-   
-    80% {left: 0px; bottom: 60px;}
-    100% {left: 0px; bottom: 0px;}
-
-}*/
-
-/*.lorem-section{   
-    padding:135px 156px 0px 165px; 
-
-}*/
 .diamond{
     padding:13px 0px 0px 0px ;
 }
 .lorem-heading{
-    padding:0px 0px 96px 0px;
+    padding:10px 0px 96px 0px;
     text-align:center;
     /*display:flex;
     justify-content: center;*/
@@ -115,9 +98,8 @@
     font-family: "Poppins";
     font-weight:700;
     /*font-size:60px;*/
-    font-size: 4.4rem;
+    font-size: 5.0rem;
     margin: 0 auto;
-    
 }
 .card-heading{
   font-family: "Poppins";
@@ -132,7 +114,7 @@
     font-family: 400;
     font-size:20px;   
 }
-.lorem-card-container{
+.lorem-card{
     display:flex;
     flex-direction:row;
     justify-content: center;
@@ -292,7 +274,7 @@
 }
 
 
-.sec-4-btn{
+.sec-4{
     border-radius:2rem;
     border:1px solid black;
     margin-bottom:5px;
@@ -485,7 +467,7 @@ color:pink ;
         text-align: center;
         margin: 0 auto;
     }
-    .lorem-card-container{
+    .lorem-card{
         display:flex;
         flex-direction:column;
         align-items: center;
